@@ -1,0 +1,19 @@
+@mixin box ($size, $background-color) {
+    
+    $font-size: $size / 10;
+    
+    width: $size;
+    height: $size / 2;
+    background-color: $background-color;
+    
+    p {
+    text-align: center;
+    padding-top: 40px;
+    font-size: $font-size;
+}
+    
+}
+
+.box {
+     @include box (200px, #bada55)
+}

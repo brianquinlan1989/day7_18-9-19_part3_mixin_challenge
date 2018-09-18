@@ -1,0 +1,10 @@
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: #bada55; }
+  .box p {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px; }
+
+/*# sourceMappingURL=mixin.css.map */
